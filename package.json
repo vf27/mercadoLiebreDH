@@ -1,0 +1,21 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "1- inicializar el proyecto con npm init -y 2- Instalar dependias base en este caso npm install express y despues npm install nodemon -D 3- Crear estructura base de carpetas y archivos del proyecto   - Por lo general se crea una carpeta src donde va todo el codigo de nuestro proyecto(Modulos propios y demas) 4- configurar nuestro entry point(punto de entrada o archivo principal)",
+  "main": "src/app.js",
+  
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
